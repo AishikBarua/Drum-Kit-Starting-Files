@@ -52,7 +52,7 @@ function makeSound(key){
             kick.play();
              break;
       
-        default: console.log(buttonInnerHTML)
+             default: console.log(buttonInnerHTML)
       } 
 }
 
@@ -63,5 +63,5 @@ function buttonAnimation(currentKey){
     setTimeout(function(){
         activeButton.classList.remove("pressed");
     },100);
-}
+}  
 
